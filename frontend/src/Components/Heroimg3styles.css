@@ -1,0 +1,42 @@
+.hero3-img{
+    width:100%;
+    height:60vh;
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+.hero3-img::before {
+    content: " " ;
+   
+    background: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg ");
+    background-size: cover;
+    background-position: center top;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.heading3{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+     align-items: center; 
+}
+.hero-img3 h1 {
+    font-size: 2.4rem;
+    margin-top: 90px;
+}
+.hero-img3 h2{
+    font-size: 1.4rem;
+    text-align: center;
+   
+}
+@media screen and  (max-width: 640px){
+    .hero-img3 h1 {
+        font-size: 2.1rem;
+    }
+    
+}
